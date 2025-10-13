@@ -1,0 +1,13 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746537707_Picture10.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746537707_Picture10.jpg",
+    "raw_text": "Dr. PATHAK'S\nDENTAL & FACEAESTHETIC CENTRE\nDt.Amt Pihh\nbr.Poonmm Pathak\nMM\nLitih\ntal\netn.e\nShop No.6 Rana AptOpp.Renuka Garden Kamsl Hero Showroom\nSubhagya Nagar Lam RoadNashk Rod.\nPhonNo.02214905680253-2993873",
+    "cleaned_text": "Dr. PATHAK'S\nDENTAL & FACEAESTHETIC CENTRE\nDt.Amt Pihh\nbr.Poonmm Pathak\nMM\nLitih\ntal\netn.e\nShop No.6 Rana AptOpp.Renuka Garden Kamsl Hero Showroom\nSubhagya Nagar Lam RoadNashk once daily.\nPhonNo.02214905680253-2993873",
+    "medications": [],
+    "dosages": [],
+    "frequencies": [
+        "once daily"
+    ],
+    "routes": [],
+    "confidence": 79.1190390927451
+}

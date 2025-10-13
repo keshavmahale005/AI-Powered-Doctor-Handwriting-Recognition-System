@@ -1,0 +1,16 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746599177_prescription_.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746599177_prescription_.jpg",
+    "raw_text": "DR.SWATIVANJARI (CHAVHAN)\nMBBS (Naa Hospila,Mumba\nDP (KEMHositaMumbaFPS\nConsuitant Neuropsychatrist&REaT Therapist\nDR.HEMANTA.SONANIS\nMMCRegNo2012/06/1390\nMDPsychiatry MumbaGotd Medal\nTOGL mind CARe CLINIC\nConsultant Psychiauist and REaT.Therapist\nDPMGodModaMBBS\nMMCreg no.2002/03/1500\nSotar ing SecdThd oo bsid SaangSrCy Unon nk KeshaMor Maolg Road\nNashk-422005.T1.30pm3.30p.m+Wbsw.unhinemdcar.cmMob.o.924385039/9607899660\nSunshine\nCOUNSELLING &THERAIYCENTER\nMy. Rohidas mahale f4syus\nst|1o|tt\nMunen'seol med'catiiny\no-00\nSomahc sis.\nC.\nElunib.\n1-0-0\nt\nT. Risdene (osmg)\n}-Q-0\n3\nC.Dilone,\n2om\n0-0\n30\nEhlaom\nPL~G nlotive\nrtiwyelud,\n1\nDR.SWATI CHAVHAN (VANJARI)\nMBSDPMMPSMumbal\nReg.No.2012/06/1890\nCONSULTING PSYCHIATRIST &COUNSELOR\nor any cheaper Generic Medicine as per patlent's cholco\n.\n3\namilo\ne-",
+    "cleaned_text": "DR.SWATIVANJARI (CHAVHAN)\nMBBS (Naa Hospila,Mumba\nDP (KEMHositaMumbaFPS\nConsuitant Neuropsychatrist&REaT Therapist\nDR.HEMANTA.SONANIS\nMMCRegNo2012/06/1390\nMDPsychiatry MumbaGotd Medal\nTOGL mind CARe CLINIC\nConsultant Psychiauist and REaT.Therapist\nDPMGodModaMBBS\nMMCreg no.2002/03/1500\nSotar ing SecdThd oo twice daily SaangSrCy Unon nk KeshaMor Maolg Road\nNashk-422005.T1.30pm3.30p.m+Wbsw.unhinemdcar.cmMob.o.924385039/9607899660\nSunshine\nCOUNSELLING &THERAIYCENTER\nMy. Rohidas mahale f4syus\nst|1o|tt\nMunen'seol med'catiiny\no-00\nSomahc sis.\nC.\nElunib.\n1-0-0\nt\nT. Risdene (osmg)\n}-Q-0\n3\nC.dexamethasone,\n2om\n0-0\n30\nEhlaom\nPL~G nlotive\nrtiwyelud,\n1\nDR.SWATI CHAVHAN (VANJARI)\nMBSDPMMPSMumbal\nReg.No.2012/06/1890\nCONSULTING PSYCHIATRIST &COUNSELOR\nor any cheaper Generic Medicine as per patlent's cholco\n.\n3\namlodipine\ne-",
+    "medications": [
+        "dexamethasone",
+        "amlodipine"
+    ],
+    "dosages": [],
+    "frequencies": [
+        "twice daily"
+    ],
+    "routes": [],
+    "confidence": 79.38472237851884
+}

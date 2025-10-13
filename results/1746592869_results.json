@@ -1,0 +1,30 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746592869_Picture12.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746592869_Picture12.jpg",
+    "raw_text": ".mm\n7.00 to 8.4\nMB8s Govt.Medical College,Thrissur\n3.30o7.30\nM.D.Paediatrics (JIPMER\nReg. No.: 52547\nPh:8086993168\nCHC.Nemmar\nDate:20-4-2022\nName:ASk\nWeight:\nAgeGender+c/\n13.25k\nClinical Description:\nURTI\nRR-22mi\nRS-BILDEE\nAdvice:\nSgP cALP0L(250(5) 4mL.Q6H x 3 c\nS4P\nDeLCON\n3 mL TDs x 5C\nLEvOUN 3 ML TO9 x Sq\nSXyP\nSgP mEFTAL-P (IO0/5)\n3mL50S",
+    "cleaned_text": ".mm\n7.00 to 8.4\nMB8s Govt.Medical College,Thrissur\n3.30o7.30\nM.D.Paediatrics (JIPMER\nReg. No.: 52547\nPh:8086993168\nCHC.Nemmar\nDate:20-4-2022\nName:ASk\nWeight:\nAgeGender+c/\n13.25k\nClinical Description:\nURTI\nRR-22mi\nRS-BILDEE\nAdvice:\nSgP paracetamol(250(5) milliliter.every 6 hours x 3 c\nS4P\nDeLCON\n3 mL three times daily x 5C\nLEvOUN 3 ML TO9 x Sq\nSXyP\nSgP mefenamic acid-P (IO0/5)\n3mL50S",
+    "medications": [
+        "paracetamol",
+        "mefenamic acid"
+    ],
+    "dosages": [
+        "3 ML",
+        "3 mL"
+    ],
+    "frequencies": [
+        "every 6 hours",
+        "three times daily"
+    ],
+    "routes": [],
+    "confidence": 83.98367503903947,
+    "preprocessed_url": "/results/enhanced_1746592869_Picture12.jpg",
+    "accuracy": {
+        "character_accuracy": 93.2,
+        "word_accuracy": 94.7,
+        "medication_accuracy": 96.7,
+        "overall_accuracy": 95.2
+    },
+    "patient_name": "Keshav Mahale",
+    "doctor_name": "Chanchal",
+    "date": "2025-05-07"
+}

@@ -1,0 +1,13 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746536407_Picture4.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746536407_Picture4.jpg",
+    "raw_text": "DR.KISHORB.PATIL\nMBBS.DN6 Ophthal.)MNAMSFCR5\nFellowship in cotaract and gtaucoma\nFellowship in conea &retraclive sugery\nnkara Eye Cenre,Coirnbatore Tamilnadu\n105\nPhaco & Cornea Surgeon\n03M\nRcgn.No.2005031592\nREF.DArA\n15.\nCYL:\n-\nhyadree Business ParkMcO Cicle.Trimbak Road.Nashik422 002.|Ph.No.:G\n<8>\n$\nMsChanch\ntegace\nRe- self\n0.2S\nS.E.\n0.25\n<L?,\nA.\n0.50\nS\n0.50\n0.50\n) Pain dching in adoys\n0.50\n050+3\n061\nKR-8900\nHDSPIA\nm\nLohiviz\nx9413\n0-99\nDldee",
+    "cleaned_text": "DR.KISHORB.PATIL\nMBBS.DN6 Ophthal.)MNAMSFCR5\nFellowship in cotaract and gtaucoma\nFellowship in conea &retraclive sugery\nnaproxen Eye Cenre,Coirnbatore Tamilnadu\n105\nPhaco & Cornea Surgeon\n03M\nRcgn.No.2005031592\nREF.DArA\n15.\nCYL:\n-\nhyadree Business ParkMcO Cicle.Trimbak Road.Nashik422 002.|Ph.No.:G\n<8>\n$\nMsChanch\ntegace\nRe- self\n0.2S\nS.E.\n0.25\n<L?,\nA.\n0.50\nS\n0.50\n0.50\n) Pain dching in adoys\n0.50\n050+3\n061\nKR-8900\nHDSPIA\nm\nLohiviz\nx9413\n0-99\nDldee",
+    "medications": [
+        "naproxen"
+    ],
+    "dosages": [],
+    "frequencies": [],
+    "routes": [],
+    "confidence": 84.24601650786126
+}

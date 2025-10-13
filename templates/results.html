@@ -1,0 +1,281 @@
+{% extends "base.html" %}
+
+{% block title %}OCR Results - MediScribe AI{% endblock %}
+
+{% block custom_css %}
+.accuracy-badge {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #00DBDE;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00DBDE;
+}
+
+.medication-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.medication-list li {
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #FC00FF;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.medication-list li:hover {
+    background-color: rgba(252, 0, 255, 0.1);
+    transform: translateX(5px);
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.image-container:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #e9ecef;
+}
+
+.prescription-text {
+    max-height: 300px;
+    overflow-y: auto;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    background-color: #f8f9fa;
+    padding: 15px;
+    color: #333;
+    border: 1px solid #e9ecef;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .results-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card {
+    height: 100%;
+    transition: transform 0.2s ease;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+    background-color: white;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #00DBDE;
+    border-color: #00DBDE;
+}
+
+.btn-primary:hover {
+    background-color: #00B5B8;
+    border-color: #00B5B8;
+}
+
+.btn-outline-secondary {
+    color: #FC00FF;
+    border-color: #FC00FF;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #FC00FF;
+    border-color: #FC00FF;
+    color: white;
+}
+
+.btn-outline-primary {
+    color: #00DBDE;
+    border-color: #00DBDE;
+}
+
+.btn-outline-primary:hover {
+    background-color: #00DBDE;
+    border-color: #00DBDE;
+    color: white;
+}
+{% endblock %}
+
+{% block content %}
+<div class="content-wrapper">
+    <div class="text-center p-4 mb-4">
+        <h1 class="mb-2">OCR Results</h1>
+        <p class="lead">Prescription OCR Processing Complete</p>
+    </div>
+
+    {% if results.error %}
+    <div class="alert alert-danger" data-aos="fade-up" data-aos-delay="100">
+        <h4>Error</h4>
+        <p>{{ results.error }}</p>
+        <a href="/" class="btn btn-primary">Try Again</a>
+    </div>
+    {% else %}
+
+    <!-- Accuracy Section -->
+    <div class="card mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <span>Recognition Results</span>
+            <span class="badge accuracy-badge">{{ results.accuracy.overall_accuracy }}% Estimated Accuracy</span>
+        </div>
+        <div class="card-body">
+            <div class="stats">
+                <div class="stat-card" data-aos="flip-up" data-aos-delay="150">
+                    <div class="stat-value">{{ results.accuracy.character_accuracy }}%</div>
+                    <div class="stat-label">Character Accuracy</div>
+                </div>
+                <div class="stat-card" data-aos="flip-up" data-aos-delay="200">
+                    <div class="stat-value">{{ results.accuracy.word_accuracy }}%</div>
+                    <div class="stat-label">Word Accuracy</div>
+                </div>
+                <div class="stat-card" data-aos="flip-up" data-aos-delay="250">
+                    <div class="stat-value">{{ results.accuracy.medication_accuracy }}%</div>
+                    <div class="stat-label">Medication Accuracy</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Layout -->
+    <div class="results-grid">
+        <!-- Original Prescription Card -->
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-header">Original Prescription</div>
+            <div class="card-body">
+                <div class="image-container">
+                    <img src="{{ original_image }}" alt="Original Prescription" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <!-- Text Results Card -->
+        <div class="card" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-header">Extracted Prescription Text</div>
+            <div class="card-body">
+                <pre class="prescription-text">{{ results.raw_text }}</pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cleaned Text and Medications Section -->
+    <div class="results-grid mt-4">
+        <!-- Cleaned Text Card -->
+        <div class="card" data-aos="fade-up" data-aos-delay="450">
+            <div class="card-header">Cleaned Text</div>
+            <div class="card-body">
+                <pre class="prescription-text">{{ results.cleaned_text }}</pre>
+            </div>
+        </div>
+
+        <!-- Medications Card -->
+        <div class="card" data-aos="fade-up" data-aos-delay="500">
+            <div class="card-header">Detected Medications</div>
+            <div class="card-body">
+                {% if results.medications %}
+                <ul class="medication-list">
+                    {% for med in results.medications %}
+                    <li data-aos="fade-right" data-aos-delay="{{ 550 + loop.index0 * 50 }}">{{ med }}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <p class="text-muted">No medications detected</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Next Steps Section -->
+    <div class="text-center my-5" data-aos="fade-up" data-aos-delay="600">
+        <div class="action-buttons justify-content-center">
+            <a href="/" class="btn btn-primary">
+                <i class="fas fa-upload me-2"></i>Process Another Prescription
+            </a>
+            <a href="/history" class="btn btn-outline-secondary">
+                <i class="fas fa-history me-2"></i>View History
+            </a>
+            <a href="/training" class="btn btn-outline-primary">
+                <i class="fas fa-graduation-cap me-2"></i>Train New Image
+            </a>
+        </div>
+    </div>
+
+    {% endif %}
+</div>
+{% endblock %}

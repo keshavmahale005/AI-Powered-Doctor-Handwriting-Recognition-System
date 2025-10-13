@@ -1,0 +1,13 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746592479_camera-capture.png",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746592479_camera-capture.png",
+    "raw_text": "Di.Y.NAGENDAR RAO\n.\nCot hrinyari\nSCUCER\nA.7\nMrSRiNiuA!\nD5-03\nCounit, uekne\n.Chs\nm.nt\nyh\nTab Sizooo.PL\nA\nMotw\nigh\nH\nTh\ntpom\nxATivanlorypm\n93\nlnhe\neL\nRioiosm.ny\nC7\nT\nCmirnpn\n:-",
+    "cleaned_text": "Di.Y.NAGENDAR rabeprazole\n.\nCot hrinyari\nSCUCER\nA.7\nMrSRiNiuA!\nD5-03\nCounit, uekne\n.Chs\nm.nt\nyh\nTab Sizooo.PL\nA\nMotw\nigh\nH\nTh\ntpom\nxATivanlorypm\n93\nlnhe\neL\nRioiosm.ny\nC7\nT\nCmirnpn\n:-",
+    "medications": [
+        "rabeprazole"
+    ],
+    "dosages": [],
+    "frequencies": [],
+    "routes": [],
+    "confidence": 67.83064026681204
+}

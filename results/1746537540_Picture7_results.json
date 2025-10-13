@@ -1,0 +1,13 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746537540_Picture7.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746537540_Picture7.jpg",
+    "raw_text": "SMBT\nSMBT INSTTTUTOF MEDECAISCIENCES AND RESEARCH CENTAE'S\nSMAT HOSPETAL\nTTAL\n-22NLL4732\nPMAIL.\nww..\nGPDCA PAPER\nFANK\n123620403\nOPD\n1O3307051010\nnt\n.NDDSRSN\n1Mh4\n-2023\nGander:\nemgg\nS5G5\nAcdress\nBELATNN\nGRAL SRGEAYUNT\nPhona No\nDELASHH\nL9175147055\nDATI\nHSYORY\nAEATMENE\nUNIT-3\nWEDNESDATSATURDAY\nptCaetoshowSmpo\nTiule ol.epigasdne\npain\nPAP-Tammcor\nSmeas.\nShe\nmou.tx",
+    "cleaned_text": "SMBT\nSMBT INSTTTUTOF MEDECAISCIENCES AND RESEARCH CENTAE'S\nSMAT HOSPETAL\nTTAL\n-22NLL4732\nPMAIL.\nww..\nGPDCA PAPER\nFANK\n123620403\nonce daily\n1O3307051010\nnt\n.NDDSRSN\n1Mh4\n-2023\nGander:\nemgg\nS5G5\nAcdress\nBELATNN\nGRAL SRGEAYUNT\nPhona No\nDELASHH\nL9175147055\nDATI\nHSYORY\nAEATMENE\nUNIT-3\nWEDNESDATSATURDAY\nptCaetoshowSmpo\nTiule ol.epigasdne\npain\nPAP-Tammcor\nSmeas.\nShe\nmou.tx",
+    "medications": [],
+    "dosages": [],
+    "frequencies": [
+        "once daily"
+    ],
+    "routes": [],
+    "confidence": 79.70029760238737
+}

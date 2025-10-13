@@ -1,0 +1,23 @@
+{
+    "image_path": "C:\\Users\\Shriram\\Downloads\\Chanchu\\Chanchu\\Chanchu_Complete\\uploads\\1746175359_hindi_text_1.jpg",
+    "preprocessed_image": "C:\\Users\\Shriram\\Downloads\\Chanchu\\Chanchu\\Chanchu_Complete\\uploads\\enhanced_1746175359_hindi_text_1.jpg",
+    "error": null,
+    "confidence": 58.961471170187,
+    "raw_text": "This is hindi text. paracatamol,  metformin",
+    "cleaned_text": "this is hindi text. paracatamol,  metformin",
+    "medications": [],
+    "dosages": [],
+    "frequencies": [],
+    "routes": [],
+    "is_trained": true,
+    "preprocessed_url": "/results/enhanced_1746175359_hindi_text_1.jpg",
+    "accuracy": {
+        "character_accuracy": 99.8,
+        "word_accuracy": 99.9,
+        "medication_accuracy": 100.0,
+        "overall_accuracy": 99.9
+    },
+    "patient_name": "afasdf",
+    "doctor_name": "asdfasdf",
+    "date": "2025-05-02"
+}

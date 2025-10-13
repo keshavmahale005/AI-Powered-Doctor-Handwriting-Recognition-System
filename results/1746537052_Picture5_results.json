@@ -1,0 +1,15 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746537052_Picture5.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746537052_Picture5.jpg",
+    "raw_text": "Dr.Y.NAGENDAR RAO\nP.SardrPaCo\nHsmA.r\nSECURBD-SS,\nContan NuroPeyeN\nnd.NO.$73AP\nR.0402\nMr SRiDiUAS\nwhin\nChrSchisophem\nounsct cixPhone\na\nR\nTab SizooPLs\nMAH\nH\ni5h\nitpn90om\n1\njuigh\nArvanLorypm\nmaus\n8ir)\nX\ntoaght\nRivotil osms (cloneyrem)\nn\nPL\nhcnnbo\nCohi\n.3rsumdic\nOSND",
+    "cleaned_text": "Dr.Y.NAGENDAR rabeprazole\nP.SardrPaCo\nHsmA.r\nSECURBD-SS,\nmefenamic acid NuroPeyeN\nnd.NO.$73AP\nR.0402\nMr SRiDiUAS\nwhin\nChrSchisophem\nounsct cixPhone\na\nR\nTab SizooPLs\nMAH\nH\ni5h\nitpn90om\n1\njuigh\nArvanLorypm\nmaus\n8ir)\nX\ntoaght\nclonazepam osms (cloneyrem)\nn\nPL\nhcnnbo\nCohi\n.3rsumdic\nOSND",
+    "medications": [
+        "clonazepam",
+        "mefenamic acid",
+        "rabeprazole"
+    ],
+    "dosages": [],
+    "frequencies": [],
+    "routes": [],
+    "confidence": 70.6793178068964
+}

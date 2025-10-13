@@ -1,0 +1,14 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746537663_Picture9.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746537663_Picture9.jpg",
+    "raw_text": "Dispon loec\nNeeclle\n7c",
+    "cleaned_text": "aspirin omeprazole\nNeeclle\n7c",
+    "medications": [
+        "aspirin",
+        "omeprazole"
+    ],
+    "dosages": [],
+    "frequencies": [],
+    "routes": [],
+    "confidence": 71.50063216686249
+}

@@ -1,0 +1,18 @@
+{
+    "error": "No text extracted from image",
+    "raw_text": "This is hindi text. paracatamol,  metformin",
+    "cleaned_text": "this is hindi text. paracatamol,  metformin",
+    "medications": [],
+    "dosages": [],
+    "frequencies": [],
+    "routes": [],
+    "accuracy": {
+        "character_accuracy": 78.5,
+        "word_accuracy": 72.3,
+        "medication_accuracy": 68.9,
+        "overall_accuracy": 73.2
+    },
+    "patient_name": "Shriram",
+    "doctor_name": "Docotor",
+    "date": "2025-05-02"
+}

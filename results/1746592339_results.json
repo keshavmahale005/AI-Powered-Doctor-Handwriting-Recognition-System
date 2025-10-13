@@ -1,0 +1,21 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746592339_camera-capture.png",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746592339_camera-capture.png",
+    "raw_text": "EF\nON\nWEREC\nCALHANDWRTEN\nAPRECALPTION!\nTNDER.\nGA\nMORKESHATROHI\nGUD\nDRADEHRALI\nCHATIDHAR",
+    "cleaned_text": "EF\nON\nWEREC\nCALHANDWRTEN\nAPRECALPTION!\nTNDER.\nGA\nMORKESHATROHI\nGUD\nDRADEHRALI\nCHATIDHAR",
+    "medications": [],
+    "dosages": [],
+    "frequencies": [],
+    "routes": [],
+    "confidence": 85.06581233097957,
+    "preprocessed_url": "/results/enhanced_1746592339_camera-capture.png",
+    "accuracy": {
+        "character_accuracy": 93.1,
+        "word_accuracy": 94.6,
+        "medication_accuracy": 96.6,
+        "overall_accuracy": 95.1
+    },
+    "patient_name": "Keshav Mahale",
+    "doctor_name": "Chanchal",
+    "date": "2025-05-07"
+}

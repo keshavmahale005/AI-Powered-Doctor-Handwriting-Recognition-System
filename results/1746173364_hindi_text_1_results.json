@@ -1,0 +1,9 @@
+{
+    "error": "No text extracted from image",
+    "raw_text": "This is hindi text. paracatamol,  metformin",
+    "cleaned_text": "this is hindi text. paracatamol,  metformin",
+    "medications": [],
+    "dosages": [],
+    "frequencies": [],
+    "routes": []
+}

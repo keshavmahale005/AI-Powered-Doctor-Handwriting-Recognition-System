@@ -1,0 +1,15 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746538556_Picture15.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746538556_Picture15.jpg",
+    "raw_text": "sIET\n.Dmum\ncns4onpip\n1Beah nequ\nPnSiNTPocow\nDinc\nDr.Harshal Menge\nJunikxidn\nDerenrdicne\nbc=oconb.hnomsoqob\nTabpteqnbali teo-4\ny44\nah\nFh\nH3.42\n55D\n-T4bpapngiFoi.D--0\n5mq\n6SL monq\nDiabec diet",
+    "cleaned_text": "sIET\n.Dmum\ncns4onpip\n1Beah nequ\nPnSiNTPocow\nDinc\nDr.Harshal Menge\nJunikxidn\nDerenrdicne\nbc=fluconazole.hnomsoqob\nTabpteqnbali teo-4\ny44\nah\nFh\nH3.42\n55D\n-T4bpapngiFoi.D--0\n5mq\nsublingual monq\nDiabec diet",
+    "medications": [
+        "fluconazole"
+    ],
+    "dosages": [],
+    "frequencies": [],
+    "routes": [
+        "sublingual"
+    ],
+    "confidence": 72.68020117824729
+}

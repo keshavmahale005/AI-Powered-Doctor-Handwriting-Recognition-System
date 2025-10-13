@@ -1,0 +1,17 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746537784_Picture11.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746537784_Picture11.jpg",
+    "raw_text": "Or #he fnreltod,b! UL.\nRx:\n- Tab.Aee 500mg 0D x2dayg\nCoTn\n-Cap.vitamin.D3 6ocoo tv. are\nCEnT A 1dR)\nwk\nMupirocin ontmaut ABD xsday\nSpur sunsheeu Ans xaw\n(qam-lzpm-3pm\nsougrdo min\nDr-Sni(!)\n.\nDr. Neehc3z)\nana3\nDr.Hioi.\nDrBhushon sir (Ap",
+    "cleaned_text": "Or #he fnreltod,b! UL.\nRx:\n- Tab.azithromycin 500mg 0D x2dayg\nCoTn\n-Cap.vitamin.D3 6ocoo tv. are\nCEnT A 1dR)\nwk\nMupirocin ontmaut twice daily xsday\nSpur sunsheeu Ans xaw\n(every morning-lzpm-3pm\nsougrdo min\nDr-Sni(!)\n.\nDr. Neehc3z)\nana3\nDr.Hioi.\nDrBhushon sir (Ap",
+    "medications": [
+        "azithromycin"
+    ],
+    "dosages": [
+        "500mg"
+    ],
+    "frequencies": [
+        "twice daily"
+    ],
+    "routes": [],
+    "confidence": 71.98736790348502
+}

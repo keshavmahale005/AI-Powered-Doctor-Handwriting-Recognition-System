@@ -1,0 +1,17 @@
+{
+    "866a7b65bbd47d2945134785b528d1f6": {
+        "perceptual_hash": "1010111100100001110111100110010101000011100110011001101101000010",
+        "image_path": "training_data\\images\\866a7b65bbd47d2945134785b528d1f6.jpg",
+        "ocr_results": {
+            "image_path": "C:\\Users\\Shriram\\Downloads\\Chanchu\\Chanchu\\Chanchu_Complete\\uploads\\1746173341_hindi_text_1.jpg",
+            "preprocessed_image": "C:\\Users\\Shriram\\Downloads\\Chanchu\\Chanchu\\Chanchu_Complete\\uploads\\enhanced_1746173341_hindi_text_1.jpg",
+            "raw_text": "This is hindi text. paracatamol,  metformin",
+            "cleaned_text": "this is hindi text. paracatamol,  metformin",
+            "medications": [],
+            "dosages": [],
+            "frequencies": [],
+            "routes": [],
+            "confidence": 58.961471170187
+        }
+    }
+}

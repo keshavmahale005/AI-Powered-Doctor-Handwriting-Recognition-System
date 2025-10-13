@@ -1,0 +1,11 @@
+{
+    "image_path": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\1746537268_Picture6.jpg",
+    "preprocessed_image": "D:\\AI-Powered Doctor Handwriting Recognition System\\Chanchu_Complete\\uploads\\enhanced_1746537268_Picture6.jpg",
+    "raw_text": "AMMINI ALLOPATHIC CONSULTANCY\nDR.KANIL ROY\nMBES,PGOHADPHReg.No.5836B\n89.MoryaCSuryoday ComplexKalbhorngarChinchwadPune-411019\nDate\nDe Harkiohcn\n27\nxreloil Arknoos\n84/m\nRS\nCuS-N\nLo the\nJys tt/son\nNIDPM\non Criaimri\nib rporls\ninoti'cnli\nCKD\n.Racsed\nb:.crcatinene\nDR.K.ANILROY\nMBBS.PGDHA,DPH\nREG.No.58368\nlisorls\"\n.cttaufedi",
+    "cleaned_text": "AMMINI ALLOPATHIC CONSULTANCY\nDR.KANIL ROY\nMBES,PGOHADPHReg.No.5836B\n89.MoryaCSuryoday ComplexKalbhorngarChinchwadPune-411019\nDate\nDe Harkiohcn\n27\nxreloil Arknoos\n84/m\nRS\nCuS-N\nLo the\nJys tt/son\nNIDPM\non Criaimri\nib rporls\ninoti'cnli\nCKD\n.Racsed\nb:.crcatinene\nDR.K.ANILROY\nMBBS.PGDHA,DPH\nREG.No.58368\nlisorls\"\n.cttaufedi",
+    "medications": [],
+    "dosages": [],
+    "frequencies": [],
+    "routes": [],
+    "confidence": 81.10917882485823
+}
